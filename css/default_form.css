@@ -1,0 +1,46 @@
+form {
+    width: inherit;
+    margin: 0 auto;
+}
+.input_padding {
+    padding: 8px 0;
+    display: flex;
+    /* width: inherit; */
+    justify-content: center;
+}
+.input_padding-inner {
+    padding: 0 8px;
+}
+.input_padding-inner:first-child {
+    padding: 0;
+    padding-right: 8px;
+}
+.input_padding-inner:last-child {
+    padding: 0;
+    padding-left: 8px;
+}
+.text-entry {
+    width: 100%;
+}
+.default_input {
+    background-color: white;
+    display: block;
+    padding: 16px 24px;
+    resize: none;
+    max-width: 900px;
+}
+.input-text {
+    max-width: 600px;
+}
+.input-submit {
+    margin: 0 auto;
+    border-radius: 35px;
+    padding: 12px 32px;
+    font-weight: 600;
+    transition: var(--default-time-trans);
+}
+.input-submit:hover,
+.input-submit:focus {
+    background-color: var(--pink);
+    color: white;
+}

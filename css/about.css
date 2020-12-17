@@ -1,0 +1,12 @@
+.container_padding {
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-text {
+    font-size: 18px;
+    text-align: center;
+}

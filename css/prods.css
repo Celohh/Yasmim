@@ -1,0 +1,17 @@
+.prod_img {
+    width: 30%;
+}
+.prod_img img {
+    max-height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.prod_name {
+    width: 45%;
+}
+.prod_price {
+    width: 25%;
+}
+.item_deck-acess {
+    border-radius: 10px;
+}

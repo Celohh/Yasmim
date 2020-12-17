@@ -1,0 +1,42 @@
+.container_main a {
+    color: var(--black);
+    transition: var(--default-time-trans);
+    font-size: 18px;
+}
+.container_main a:hover {
+    color: var(--white);
+    background-color: var(--pink);
+}
+.item_deck {
+    box-sizing: border-box;
+    display: block;
+    padding: 4px 16px;
+    width: 100%;
+}
+.item_deck-example {
+    bottom: 8px;
+}
+.item_deck-acess {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: white;
+    border-radius: 35px;
+}
+.item_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+    font-size: 18px;
+    text-align: center;
+}
+.item_tag span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-example {
+    background-color: transparent;
+    font-weight: 600;
+}

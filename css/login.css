@@ -1,0 +1,22 @@
+.container_main {
+    align-items: center;
+}
+.container_padding {
+    max-width: 60%;
+}
+.input_padding,
+.default_input {
+    margin: 0 auto;
+}
+.acess_subtitle {
+    display: block;
+    font-size: 14px;
+    color: var(--lg-gray);
+    margin: 0 auto;
+    text-align: center;
+    padding: 24px 0 32px 0;
+}
+.acess_subtitle:hover {
+    color: gray;
+    text-decoration: underline;
+}
